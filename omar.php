@@ -1,4 +1,4 @@
 <?php
-echo "Chinga tu madre<br>";
-echo "Me estoy cogiendo a tu hermana jajajajaja";
+echo "Chinga tu madre putito <br>";
+
 ?>
