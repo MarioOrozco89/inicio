@@ -1,6 +1,6 @@
 <?php
 require_once("../../Slim/Slim.php");
-//require_once("../classes/Connection.php");
+require_once("../classes/Connection.php");
 
 \Slim\Slim::registerAutoloader();
 
