@@ -1,4 +1,12 @@
 <?php
+include("../classes/Usuarios.php");
+
+$app->get('/login/:usuario/:password', function($usuario, $password){
+$respuesta = Usuarios::login($password, $usuario);
+echo json_encode($respuesta);
+});
+
+
 $app->get('/obtener/sexo/:sexo', function($sexo){
 
 if($sexo == "M"){

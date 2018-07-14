@@ -6,9 +6,9 @@ date_default_timezone_set("America/Mexico_City");
 setlocale(LC_ALL,"es_ES");
 class Connection {
     //Variables used to connect to database
-    private static $dns = 'mysql:dbname=itea;host=35.165.79.206';
-    private static $user = 'itea';
-    private static $password = '1t34';
+    private static $dns = 'mysql:dbname=inicio;host=localhost';
+    private static $user = 'root';
+    private static $password = '';
     
     //Static method to connect to database
     static function connect(){
