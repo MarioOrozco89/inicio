@@ -7,6 +7,9 @@ require_once("../../Slim/Slim.php");
 $app = new \Slim\Slim();
 
 include("calculadora.php");
+include("estatura.php");
+include("borrachin.php");
+include("picha.php");
 
 //require_once ('users.php');
 
